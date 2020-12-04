@@ -1,0 +1,34 @@
+{
+  "name": "declass",
+  "version": "0.0.0",
+  "description": "",
+  "repository": "nuxt-contrib/declass",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "siroc build",
+    "lint": "eslint --ext .ts .",
+    "release": "yarn test && yarn build && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "@types/cheerio": "^0.22.22",
+    "@types/flat": "latest",
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "eslint": "latest",
+    "jest": "latest",
+    "siroc": "latest",
+    "standard-version": "latest",
+    "ts-jest": "latest",
+    "typescript": "latest"
+  }
+}
