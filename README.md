@@ -39,7 +39,6 @@ declass(html)
   "class": "duration-200 group-hover:opacity-100 transition-opacity",
   "uses": [
     "<div class="transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 absolute top-4 right-6 cursor-pointer" data-v-cc3a34da="">",
-    "<img src=\\"https://avatars3.githubusercontent.com/u/2781561?v=4&s=24\\" alt=\\"Troy Morehouse\\" width=\\"24\\" height=\\"24\\" class=\\"relative inline-block rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100\\" data-v-cc3a34da=\\"\\">",
     ...
   ],
   ...
@@ -59,8 +58,8 @@ MIT. Made with 💖
 [npm-downloads-src]: https://img.shields.io/npm/dm/declass?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/declass
 
-[github-actions-src]: https://img.shields.io/github/workflow/status/nuxt-contrib/declass/ci/master?style=flat-square
+[github-actions-src]: https://img.shields.io/github/workflow/status/nuxt-contrib/declass/ci/main?style=flat-square
 [github-actions-href]: https://github.com/nuxt-contrib/declass/actions?query=workflow%3Aci
 
-[codecov-src]: https://img.shields.io/codecov/c/gh/nuxt-contrib/declass/master?style=flat-square
+[codecov-src]: https://img.shields.io/codecov/c/gh/nuxt-contrib/declass/main?style=flat-square
 [codecov-href]: https://codecov.io/gh/nuxt-contrib/declass
