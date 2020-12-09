@@ -1,11 +1,13 @@
-# declass
+![declass](https://user-images.githubusercontent.com/904724/101665243-070b3580-3a4d-11eb-9b45-58a2ded1bf67.png)
 
-> Statically analyze HTML to detect potential class groupings
+# declass
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Github Actions][github-actions-src]][github-actions-href]
 [![Codecov][codecov-src]][codecov-href]
+
+> Statically analyze HTML to detect potential class groupings
 
 ## Install
 
