@@ -16,11 +16,11 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3"
+    "cheerio": "^1.0.0-rc.12"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "latest",
-    "@types/cheerio": "^0.22.22",
+    "@types/cheerio": "^0.22.35",
     "@types/flat": "latest",
     "@types/jest": "latest",
     "@types/node": "latest",
